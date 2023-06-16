@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    color:wheat;
+    background-color: grey;
+    
+    
+}
+
+.image{
+    height:200px;
+    
+
+}
+.main{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    
+    
+    
+}
+body{
+    background-color: lightsteelblue;
+}
+.blue{
+    color:blue;
+}
+.third{
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+}
+.fourth{
+    font-size: 1rem;
+   
+}
+.last{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@media(max-width:450px){
+    h1{
+        text-align: center;
+        color:lightblue ;
+        background-color: black;
+        
+        
+    }
+    
+    body{
+        background-color: lightpink;
+        
+        
+    }
+    .main{
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        display: grid;
+        
+        
+    }
+    .image{
+        height:150px;
+    
+    }
+    .third{
+        font-family: 'EB Garamond', serif;
+        font-size: 1.5rem;}
+        .fourth{
+            font-size: 1rem;
+        }
+        .last{
+            background-color: black;
+            color: red;
+            text-align: center;
+        }
+}
